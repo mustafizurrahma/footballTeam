@@ -1,0 +1,79 @@
+/* ---------------- */
+
+.team-single-wrap {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px 0px #2274ee47;
+    border-radius: 5px;
+    padding: 30px 10px;
+}
+
+img.team-image {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.header-area {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.header-area:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00008b52;
+    left: 0;
+    top: 0;
+}
+button.btn.btn-primary.mt-3 {
+    color: aqua !important;
+    background-color: crimson !important;
+}
+button.btn.btn-primary.mt-3:hover {
+    color: #d9ff00da !important;
+    background-color: #4a4affd3 !important;
+}
+.header-area h1 {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.team-single-wrap h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:991px) {
+    .header-area {
+        height: 350px;
+    }
+    .header-area h1 {
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .header-area {
+        height: 300px;
+    }
+    .header-area h1 {
+        font-size: 25px;
+    }
+}
